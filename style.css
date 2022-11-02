@@ -1,0 +1,125 @@
+h1,h2,h3 { font-family: 'Times New Roman', Times, serif;
+  color: #343149;
+}
+
+body {
+  background-color: #343149;
+}
+a {
+  text-decoration: none;
+  background-color: #6b333d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba (0,0,0,0,1);
+  transition: 0.3s ease;
+  margin: 10px auto;
+  box-align: center;
+}
+
+a:hover {
+background-color: #a91d1d;
+}
+
+.img-head {
+  border-radius: 50%;
+  border: 2px solid white;
+  background-size: contain;
+}
+
+.Introduction {
+  text-align: center;
+  width: 60vw;
+  background: #e33958;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.404);
+  border: 1px solid #F7F7F7;
+  border-radius: 4px;
+  margin: auto;
+  color: white;
+}
+
+.sections{
+  width: 60vw;
+  background: #e33958;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.404);
+  border: 1px solid #F7F7F7;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 2px;
+  font-size: 24px;
+}
+ul {
+  padding: 0;
+}
+.links {
+  width: 60vw;
+  height: 150px;
+  background: #e33958;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.404);
+  border: 1px solid #F7F7F7;
+  border-radius: 4px;
+  margin: 25px auto;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px
+}
+
+@media (max-width: 960px) {
+  .img-head {
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+  .Introduction {
+    width: 90vw;
+  }
+
+  .sections{
+    width: 90vw;
+  }
+  .links {
+    width: 90vw;
+  }
+}
+/* @media (max-width: 720px) {
+  .img-head {
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+}
+
+@media (max-width: 540px) {
+  .img-head {
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+} */
