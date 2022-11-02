@@ -13,12 +13,16 @@ a {
   border-radius: 5px;
   box-shadow: 0 0 16px rgba (0,0,0,0,1);
   transition: 0.3s ease;
-  margin: 10px auto;
+  margin: 20px auto;
   box-align: center;
 }
 
 a:hover {
 background-color: #a91d1d;
+}
+
+.insta_button {
+  font-size: 24px ;
 }
 
 .img-head {
@@ -36,6 +40,7 @@ background-color: #a91d1d;
   border-radius: 4px;
   margin: auto;
   color: white;
+  padding-bottom: 50px;
 }
 
 .sections{
@@ -47,6 +52,7 @@ background-color: #a91d1d;
   margin: 20px auto;
   text-align: center;
   color: white;
+  padding-bottom: 10px;
 }
 
 li {
